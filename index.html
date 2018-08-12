@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="漫画家支援の他、MANGA文化の発展に寄与するためのMangaCoin（マンガコイン）公式サイトです">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="css/cmn.css" rel="stylesheet" media="all">  
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/ogp/phoneicon.png">
+    <link rel="shortcut icon" href="https://manga-coin.com/img/ogp/phoneicon.png">  
+	<meta property="og:title" content="MangaCoin（マンガコイン）">
+	<meta property="og:url" content="https://manga-coin.com/">
+	<meta property="og:image" content="https://manga-coin.com/img/ogp/ogp.png">
+	<meta property="og:site_name" content="漫画家支援の他、MANGA文化の発展に寄与するためのMangaCoin（マンガコイン）公式サイトです">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@mangacoin">
+	<meta name="twitter:url" content="https://twitter.com/mangacoin?lang=ja">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120534606-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120534606-1');
+</script>
+	<script src="js/chart.js"></script>
+    <title>MangaCoin（マンガコイン）</title>
+    </head>
+<body>
+<header class="clearfix">
+<h1><img src="img/cmn/logo.png" alt="MANGACOIN（マンガコイン）" title="MANGACOIN（マンガコイン）">MANGACOIN</h1>
+<nav class="gnav">
+<ul>
+<li><a href="#c02">マンガコインとは</a></li>
+<li><a href="#c03">クラウドマンギング</a></li>
+<li><a href="#c05">ロードマップ</a></li>
+<li><a href="#c06">チーム</a></li>
+<li><a href="#c07">コミュニティ</a></li>
+</ul>
+</nav>
+<nav class="language">
+<i class="fas fa-globe"></i>
+<ul>
+<li><a href="https://manga-coin.com/">日本語</a></li>
+<li><a href="https://manga-coin.com/en">English</a></li>
+</ul>
+</nav>
+<div class="menubtn"><i class="fas fa-bars"></i></div>
+</header>
+<article>
+<section id="c01" class="c01">
+<h1>ブロックチェーンで漫画家を応援</h1>
+<p>MangaCoinは漫画家を支援することを目的とした<br>
+モナコインベースの独自通貨です。</p>
+<nav><a href="https://github.com/mangacoinproject/mangacoin/releases" target="_blank">ウォレット</a></nav>
+<nav><a href="http://bit.ly/mangacoinwp" target="_blank">ホワイトペーパー</a><span class="minfont">Last Update: 2018/08/04 ver.3.1.0</span></nav>
+<video autoplay muted loop poster="img/cmn/movieback.jpg" id="bgvid">
+<source src="img/cmn/head.mp4" type="video/mp4">
+<source src="img/cmn/head.ogv" type="video/ogg">
+<source src="img/cmn/head.webm" type="video/webm">
+</video>
+</section>
+
+<section id="c02" class="c02">
+<h2>マンガコインとは</h2>
+<p>MangaCoinは漫画家の方を支援する目的で作られた、モナコインベースの独自通貨です。クラウド・ファンディングのマンガ版の事を「クラウドマンギング」と名付け、 それをメイン・プロジェクトとしています。
+このプロジェクトには、「面倒な登録不要」、「目標達成の確認が容易」など、仮想通貨の特性を活かした利点があり、さらには「特定分野におけるクラウド・ファンディングに焦点をあてている」という、他に類を見ない仮想通貨です。また、「MANGA」という言葉は、日本の皆様、ひいては世界中の人々に広く愛されている、親しみやすい言葉です。このMangaCoinが漫画家・読者の間で広く普及することを、私たちは望んでいます。</p>
+<div class="clearfix">
+<dl>
+<dt class="clearfix"><img src="img/cmn/logo.png" alt="MANGACOIN（マンガコイン）" title="MANGACOIN（マンガコイン）">
+<table>
+<tr><th>コイン名</th><td>MangaCoin （マンガコイン）</td></tr>
+<tr><th>シンボル</th><td>MANGA</td></tr>
+<tr><th>発行枚数</th><td>500億 MANGA（プレマイン350億 + PoW150億）</td></tr>
+<tr><th>POWアルゴリズム</th><td>Lyra2REv2</span></td></tr>
+<tr><th>難易度調整アルゴリズム</th><td>DarkGravityWave</span></td></tr>
+</table>
+</dt>
+<dd>MangaCoinはモナコインベースの独自通貨です。
+Segwitはメインネットのブロックチェーン構築後、1ヶ月後に有効になる予定です。
+これはBIP9の仕組みである合意期間がないと有効にならないためです。</dd>
+</dl>
+	
+<dl>
+<dt class="viewpc"><canvas id="myChartpc"></canvas></dt>
+<dt class="viewsp"><canvas id="myChartsp"></canvas></dt>
+<dd>※マイニング情報<br>
+・半減期：700979 ブロック(２年＋２時間）<br>
+・初期報酬：10714 MANGA<br>
+・ブロック生成時間：1.5分<br>
+・初期報酬０期間：1920 ブロックまで<br>
+<span class="minfont">初期報酬０期間を設けたことで、初期ブロックのマイナー報酬を運営が独占しないよう致しました。</span></dd>
+</dl>
+</div>
+</section>
+	
+<section id="c03" class="c03">
+<h3><span class="minfont">漫画家を応援する新しい仕組み</span>クラウドマンギング</h3>
+<div class="flex clearfix">	
+<dl>
+<dt>漫画家がプロジェクトを公開</dt>
+<dd>漫画家は、プロジェクトの内容や寄付の目標額を設定して読者に支援を募ります。漫画の構想やイメージイラスト、リターン（プロジェクト成功時の出資者へのお返し）の内容で、プロジェクトの魅力を読者に伝えます。</dd>
+</dl>
+
+<dl>
+<dt>ファンはコインで漫画家を支援</dt>
+<dd>ファンは、応援したいプロジェクト（漫画家）に仮想通貨であるMangaCoin(MANGA)を寄付します。プロジェクトが成功すれば、寄付額に応じて、漫画家が設定したリターンを得ることができます。</dd>
+</dl>
+	
+<dl>
+<dt>達成したら漫画家は執筆を開始</dt>
+<dd>支援された寄付を元手に漫画を執筆します。執筆状況を公開したり、必要であれば読者に意見を求めるなど、読者と一緒に作品を作り上げることができます。</dd>
+</dl>
+	
+<dl>
+<dt>作品を公開しリターンでお返し</dt>
+<dd>漫画が完成したら読者に公開し、設定したリターンを支援してくれた読者にお返しします。</dd>
+</dl>
+</div>
+</section>
+	
+<section id="c04" class="c04">
+<h3>なぜ仮想通貨なのか</h3>
+<div class="flex clearfix">
+<dl>
+<dt>誰でも簡単に参加できる</dt>
+<dd>MangaCoinのアドレスさえあれば、漫画家も読者もすぐにクラウドマンギングに参加することができます。MangaCoinアドレスは、「誰でも」「簡単に」作ることができます。</dd>
+</dl>	
+<dl>
+<dt>取引の流れが誰でも確認できる</dt>
+<dd>MangaCoinの取引はブロックチェーン上に保存されるため、その漫画家にどれだけの寄付が集まったかを誰でも確認できます。</dd>
+</dl>
+<dl>
+<dt>好きな漫画家の支援になる</dt>
+<dd>作品が掲載されるまでの経済的に厳しい期間を、読者の寄付によって支援することができます。目標が達成した時はもちろんのこと、目標が達成しなかった場合でも、その寄付は成立して漫画家の支援となります。</dd>
+</dl>	
+<dl>
+<dt>違法アップロードなどの被害抑止</dt>
+<dd>寄付した段階で漫画家の報酬となるため、違法ア ップロードなどの被害抑止に繋がります。海賊版サイトへの警告や削除要請等の活動に対する経済的支援やボランティア活動も実施いたします。</dd>
+</dl>
+</div>
+</section>
+	
+<section id="c05" class="c05">
+<h3>ロードマップ</h3>	
+<p>私たちの最終目標は、「MangaCoinを世界中に普及させる事」です。一見すると不可能に思えるこの目標も、段取り良く実現可能なステップを踏んでいくことで、可能にしていきます。世界中に普及させた仮想通貨は、まだありません。私たちがその第一号となるべく、着実に歩んでいきます。</p>
+<div class="clearfix">
+
+<dl>
+<dt>2018.04</dt>
+<dd>
+<ul>
+<li>MangaCoin発行</li>
+<li>公式Discord, 公式Twitterアカウントを開設</li>
+<li>5ch, DiscordでAirdropを実施</li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt>2018.05</dt>
+<dd>
+<ul>
+<li>一味違うWhitepaperを参加者と共に作成</li>
+<li>キャラクターコンテストなどユーザー参加型イベントを実施</li>
+<li>公式サイトを公開</li>
+<li>クラウドマンギングのクローズドテストを実施</li>
+</ul>
+</dd>
+</dl>
+
+<dl>
+<dt>2018.06 - 2018.07</dt>
+<dd>
+<ul>
+<li>寄付を中心とした上場資金の調達</li>
+<li>新MangaCoin（独自仮想通貨）の発行</li>
+<li>旧MangaCoinと新MangaCoinの交換を開始</li>
+<li>海外取引所に上場</li>
+</ul>
+</dd>
+</dl>
+	
+<dl>
+<dt>2018 Summer</dt>
+<dd>
+<ul>
+<li>クラウドマンギングを一般の漫画家・読者に公開</li>
+<li>クラウドマンギングで様々なイベントを実施</li>
+<li>新MangaCoin、クラウドマンギングの新機能を研究開発</li>
+</ul>
+</dd>
+</dl>
+	
+<dl>
+<dt>2018 Autumn</dt>
+<dd>
+<ul>
+<li>支払い型サービスの開始、オリジナル漫画雑誌を発行</li>
+<li>海賊版サイトへの警告や削除要請等の活動に対する</li>
+<li>経済的支援やボランティア活動</li>
+</ul>
+</dd>
+</dl>
+	
+<dl>
+<dt>2019</dt>
+<dd>
+<ul>
+<li>漫画出版社とのタイアップ、業務提携</li>
+<li>海外の仮想通貨やトークン、海外企業との提携</li>
+</ul>
+</dd>
+</dl>
+
+</div>
+</section>
+	
+<section id="c06" class="c06">
+<h3>チーム</h3>
+<div class="clearfix">
+<dl>
+<dt><img src="img/team/01.jpg" alt="堀健二" title="堀健二"></dt>
+<dd><p>堀健二</p><b>社長</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/02.jpg" alt="qyuser" title="qyuser"></dt>
+<dd><p>原田圭佑</p><b>エンジニア</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/12.jpg" alt="tasukaji" title="tasukaji"></dt>
+<dd><p>tasukaji</p><b>トランスレーター</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/noimg.jpg" alt="どる" title="どる"></dt>
+<dd><p>どる</p><b>外部アドバイザー</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/05.jpg" alt="こじら" title="こじら"></dt>
+<dd><p>こじら</p><b>エンジニア</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/06.jpg" alt="mas" title="mas"></dt>
+<dd><p>mas</p><b>エンジニア</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/07.jpg" alt="katuo_meme" title="katuo_meme"></dt>
+<dd><p>katuo_meme</p><b>デザイナー</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/noimg.jpg" alt="itti" title="itti"></dt>
+<dd><p>itti</p><b>マネージャー</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/09.jpg" alt="もずく" title="もずく"></dt>
+<dd><p>もずく</p><b>運営スタッフ</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/10.jpg" alt="森の神あかずきん" title="森の神あかずきん"></dt>
+<dd><p>森の神あかずきん</p><b>漫画家</b></dd>
+</dl>
+	
+<dl>
+<dt><img src="img/team/11.jpg" alt="たらら" title="たらら"></dt>
+<dd><p>たらら</p><b>トランスレーター</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/15.jpg" alt="ねぎ" title="ねぎ"></dt>
+<dd><p>ねぎ</p><b>エンジニア</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/13.jpg" alt="kikkokoko" title="kikkokoko"></dt>
+<dd><p>kikkokoko</p><b>運営スタッフ</b></dd>
+</dl>
+<dl>
+<dt><img src="img/team/14.jpg" alt="nabeox" title="nabeox"></dt>
+<dd><p>nabeox</p><b>トランスレーター</b></dd>
+</dl>
+</div>
+</section>
+	
+<section id="c07" class="c07">
+<h3>コミュニティ</h3>
+<p>漫画家・読者のコミュニケーションのため、またはMangaCoinの価値を高めるためには、コミュニティの存在が欠かせません。私たちのDiscordコミュニティでは、イベント等で作品を採用させて頂いた方や、私たちの活動のお手伝いをしてくれた方などに、MangaCoinならではの役職を付与させて頂いており、まるで漫画の世界のようなコミュニティになる事を目指しています。</p>
+<ul>
+<li><a href="https://discord.gg/7QCAdkj" target="_blank"><i class="fab fa-discord"></i></a></li>
+<li><a href="https://twitter.com/mangacoin" target="_blank"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://t.me/manga_japanese" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+<li><a href="https://github.com/mangacoinproject" target="_blank"><i class="fab fa-github-alt"></i></a></li>	
+<li><a href="https://bitcointalk.org/index.php?topic=4765023.0" target="_blank"><i class="fab fa-bitcoin"></i></a></li>
+<li><a href="https://mangablog.jp/" target="_blank"><i class="fab fa-wordpress"></i></a></li>
+</ul>
+</section>
+	<!--
+<section id="popup" class="lity-hide">
+	<div class="window">
+	<img src="img/opimage/01.jpg" alt="クラウドネーティング" title="クラウドネーティング">
+	</div>
+</section>
+	-->
+</article>	
+<footer>
+<small>© 株式会社MANGA 2018</small>	
+</footer>	
+	
+<script src="js/jquery.js"></script>
+<script src="js/lity.js"></script>
+<script src="js/cmn.js?20180616"></script>
+</body>
+</html>
