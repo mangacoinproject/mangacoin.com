@@ -27,8 +27,8 @@ html {
 	overflow: auto;
 }
 html, button, input, select, textarea {
-	font-family: arial,sans-serif;
-	_font-family: arial,sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	_font-family: 'ＭＳ Ｐゴシック', sans-serif;
 }
 body {
 	overflow: hidden;
@@ -66,8 +66,8 @@ mark {
 	color: #000;
 }
 pre, code, kbd, samp {
-	font-family: arial,sans-serif;
-	_font-family: arial,sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	_font-family: 'ＭＳ Ｐゴシック', sans-serif;
 }
 pre {
 	white-space: pre;
@@ -884,9 +884,32 @@ section.c07 ul li{
 	display: inline-block;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 20px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
+
+/* --------------------------------------------------
+	section c08
+-------------------------------------------------- */
+
+section.c08{
+	background-color: #f8f8f8;
+}
+
+section.c08 a{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+		width: 280px;
+}
+
+section.c08 a img{
+	width:100%;
+	height: auto;
+}
+
 
 /* --------------------------------------------------
 	section lity-hide

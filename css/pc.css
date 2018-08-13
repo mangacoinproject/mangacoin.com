@@ -852,6 +852,28 @@ section.c07 ul li{
 }
 
 /* --------------------------------------------------
+	section c08
+-------------------------------------------------- */
+
+section.c08{
+	background-color: #f8f8f8;
+}
+
+section.c08 a{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+		width: 480px;
+}
+
+section.c08 a img{
+	width:100%;
+	height: auto;
+}
+
+
+/* --------------------------------------------------
 	section lity-hide
 -------------------------------------------------- */
 div.window{
